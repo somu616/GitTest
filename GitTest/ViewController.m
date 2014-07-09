@@ -19,6 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     UIButton *temp = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    temp.backgroundColor = [UIColor redColor];
     [self.view addSubview:temp];
 }
 
