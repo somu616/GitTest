@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *temp = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [self.view addSubview:temp];
 }
 
 - (void)didReceiveMemoryWarning
